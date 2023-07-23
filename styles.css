@@ -1,1 +1,14 @@
 /*  your css code here. If applicable */
+.para1::before{
+	content:"Before Element ";
+	font-size:30px;
+	color:red;
+}
+.para1::after{
+	content:"After Element";
+	font-size:30px;
+	color:red;
+}
+span{
+	font-size:30px;
+}
