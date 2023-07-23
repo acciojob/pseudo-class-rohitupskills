@@ -2,13 +2,10 @@
 .para1::before{
 	content:"Before Element ";
 	font-size:30px;
-	color:rgb(255, 0, 0);
+	color:rgb(255,0,0);
 }
 .para1::after{
 	content:"After Element";
 	font-size:30px;
-	color:rgb(255, 0, 0);
-}
-span{
-	font-size:30px;
+	color:rgb(255,0,0);
 }
