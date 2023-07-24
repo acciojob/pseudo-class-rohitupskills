@@ -1,14 +1,8 @@
-/*  your css code here. If applicable */
-.para1::before{
-	content:"Before Element ";
-	font-size:25px;
-	color:rgb(255,0,0);
+div::before{
+content: "Before Element";
+color: red;
 }
-.para1::after{
-	content:"After Element";
-	font-size:25px;
-	color:rgb(255,0,0);
-}
-.para1{
-	font-weight:900
+div::after{
+content: "After Element";
+color: red;
 }
